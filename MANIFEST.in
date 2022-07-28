@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erp_shoppingcart *.css
+recursive-include erp_shoppingcart *.csv
+recursive-include erp_shoppingcart *.html
+recursive-include erp_shoppingcart *.ico
+recursive-include erp_shoppingcart *.js
+recursive-include erp_shoppingcart *.json
+recursive-include erp_shoppingcart *.md
+recursive-include erp_shoppingcart *.png
+recursive-include erp_shoppingcart *.py
+recursive-include erp_shoppingcart *.svg
+recursive-include erp_shoppingcart *.txt
+recursive-exclude erp_shoppingcart *.pyc
